@@ -7,9 +7,9 @@ import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.Scroll;
 
 
-import static co.com.sofka.userinterfaces.webUi.MyStoreSingInLocator.*;
+import static co.com.sofka.userinterfaces.webUi.MyStoreSignInLocator.*;
 
-public class FillSingIn implements Task {
+public class FillSignIn implements Task {
 
     private String name;
     private String lastName;
@@ -24,57 +24,57 @@ public class FillSingIn implements Task {
     private String phone;
 
 
-    public FillSingIn withName(String name) {
+    public FillSignIn withName(String name) {
         this.name = name;
         return this;
     }
 
-    public FillSingIn withLastName(String lastName) {
+    public FillSignIn withLastName(String lastName) {
         this.lastName = lastName;
         return this;
     }
 
-    public FillSingIn withPassword(String password) {
+    public FillSignIn withPassword(String password) {
         this.password = password;
         return this;
     }
 
-    public FillSingIn inTheCompany(String company) {
+    public FillSignIn inTheCompany(String company) {
         this.company = company;
         return this;
     }
 
-    public FillSingIn inTheAddress(String address) {
+    public FillSignIn inTheAddress(String address) {
         this.address = address;
         return this;
     }
 
-    public FillSingIn onTheCity(String city) {
+    public FillSignIn onTheCity(String city) {
         this.city = city;
         return this;
     }
 
-    public FillSingIn withThePostcode(String postcode) {
+    public FillSignIn withThePostcode(String postcode) {
         this.postcode = postcode;
         return this;
     }
 
-    public FillSingIn andOther(String other) {
+    public FillSignIn andOther(String other) {
         this.other = other;
         return this;
     }
 
-    public FillSingIn withThePhone(String phone) {
+    public FillSignIn withThePhone(String phone) {
         this.phone = phone;
         return this;
     }
 
-    public FillSingIn withTheCellPhone(String cellPhone) {
+    public FillSignIn withTheCellPhone(String cellPhone) {
         this.cellPhone = cellPhone;
         return this;
     }
 
-    public FillSingIn withTheAlias (String alias) {
+    public FillSignIn withTheAlias (String alias) {
         this.alias = alias;
         return this;
     }
@@ -108,7 +108,7 @@ public class FillSingIn implements Task {
         );
     }
 
-    public static FillSingIn fillSingIn(){
-        return new FillSingIn();
+    public static FillSignIn fillSingIn(){
+        return new FillSignIn();
     }
 }

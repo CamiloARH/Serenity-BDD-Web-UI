@@ -9,10 +9,10 @@ import org.apache.log4j.Logger;
 
 import java.util.Locale;
 
-import static co.com.sofka.questions.webUi.MyStoreSingInValidation.myStoreSingInValidation;
+import static co.com.sofka.questions.webUi.MyStoreSignInValidation.myStoreSingInValidation;
 import static co.com.sofka.tasks.OpenLandingPage.openLandingPage;
-import static co.com.sofka.tasks.webUi.BrowseToTheSingIn.browseToTheSingIn;
-import static co.com.sofka.tasks.webUi.FillSingIn.fillSingIn;
+import static co.com.sofka.tasks.webUi.BrowseToTheSignIn.browseToTheSingIn;
+import static co.com.sofka.tasks.webUi.FillSignIn.fillSingIn;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static org.hamcrest.CoreMatchers.equalTo;

@@ -9,7 +9,7 @@ import static org.openqa.selenium.By.className;
 import static org.openqa.selenium.By.id;
 import static org.openqa.selenium.By.cssSelector;
 
-public class MyStoreSingInLocator {
+public class MyStoreSignInLocator {
     public static final Target SIGN_IN = Target
             .the("Sign in")
             .located(className("header_user_info"));

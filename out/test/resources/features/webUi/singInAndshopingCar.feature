@@ -1,4 +1,4 @@
-Feature:realizar un Sing in
+Feature:Realizar un Sign in
   Como usuario me quiero registrar al sistema
   quiero crear una cuenta
   para poder comprar

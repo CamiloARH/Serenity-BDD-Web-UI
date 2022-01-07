@@ -1,20 +1,18 @@
 package co.com.sofka.tasks.webUi;
 
-import com.github.javafaker.Faker;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.Scroll;
-import net.serenitybdd.screenplay.actions.ScrollTo;
 
-import static co.com.sofka.userinterfaces.webUi.MyStoreSingInLocator.*;
+import static co.com.sofka.userinterfaces.webUi.MyStoreSignInLocator.*;
 
 
-public class BrowseToTheSingIn implements Task {
+public class BrowseToTheSignIn implements Task {
     private String email;
 
-    public BrowseToTheSingIn withEmail(String email) {
+    public BrowseToTheSignIn withEmail(String email) {
         this.email = email;
         return this;
     }
@@ -29,7 +27,7 @@ public class BrowseToTheSingIn implements Task {
         );
     }
 
-    public static BrowseToTheSingIn browseToTheSingIn(){
-        return new BrowseToTheSingIn();
+    public static BrowseToTheSignIn browseToTheSingIn(){
+        return new BrowseToTheSignIn();
     }
 }
